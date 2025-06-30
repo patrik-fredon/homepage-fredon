@@ -2,6 +2,11 @@
 # For configuration options and examples, please see:
 # https://gethomepage.dev/configs/settings/
 
+title: Fredon's Homepage
+description: “Et in tenebris codicem inveni lucem.” - Fredon
+
+startUrl: https://home.hajd.cloud
+
 layout:
   Calendar:
     header: false
@@ -14,18 +19,36 @@ layout:
   Network:
     header: false
   Bookmarks:
-    style: row  # Show bookmarks as a single row, but limit it to four coloums across
-    columns: 4
+    style: row # Show bookmarks as a single row, but limit it to four coloums across
+    columns: 5
 
 fiveColumns: true
 useEqualHeights: true
 
-background: /images/dracula-solid.png
+background:
+  image: /images/Banner.jpeg
+  blur: sm # sm, "", md, xl... see https://tailwindcss.com/docs/backdrop-blur
+  saturate: 50 # 0, 50, 100... see https://tailwindcss.com/docs/backdrop-saturate
+  brightness: 50 # 0, 50, 75... see https://tailwindcss.com/docs/backdrop-brightness
+  opacity: 50 # 0-100
+
 theme: dark
-color: gray  # Set colour to gray to enable `dracula` theme from `custom.css` to be enabled by default
+color: gray
 cardBlur: xl
-headerStyle: clean
+headerStyle: underlined
+favicon: /images/favicon.ico
 
 providers:
-  finnhub: {{HOMEPAGE_VAR_FINNHUB_TOKEN}}
-  openweathermap: {{HOMEPAGE_VAR_OPENWEATHERMAP_TOKEN}}
+  finnhub: { { HOMEPAGE_VAR_FINNHUB_TOKEN } }
+  openweathermap: { { HOMEPAGE_VAR_OPENWEATHERMAP_TOKEN } }
+base: https://home.hajd.cloud
+
+quicklaunch:
+  searchDescriptions: true
+  hideInternetSearch: true
+  showSearchSuggestions: true
+  hideVisitURL: true
+  provider: google # google, duckduckgo, bing, baidu, brave or custom
+
+hideVersion: true
+logpath: /logfile/logs
