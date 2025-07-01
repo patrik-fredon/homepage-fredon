@@ -34,13 +34,13 @@ background:
 
 theme: dark
 color: gray
-cardBlur: xl
+cardBlur: md
 headerStyle: underlined
 favicon: /images/favicon.ico
 
 providers:
-  finnhub: { { HOMEPAGE_VAR_FINNHUB_TOKEN } }
-  openweathermap: { { HOMEPAGE_VAR_OPENWEATHERMAP_TOKEN } }
+  finnhub: cuf975hr01qno7m585ngcuf975hr01qno7m585o0
+  openweathermap: 2c694f34ac4dd3eb8e6fad1f16f0ca9c
 base: https://home.hajd.cloud
 
 quicklaunch:
