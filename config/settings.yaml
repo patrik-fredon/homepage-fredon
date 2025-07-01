@@ -1,72 +1,123 @@
----
-# For configuration options and examples, please see:
-# https://gethomepage.dev/configs/settings/
-
-title: Fredon's Homepage
-description: “Et in tenebris codicem inveni lucem.” - Fredon
-
-startUrl: https://home.hajd.cloud
-
-layout:
-  Calendar:
-    style: row
-    columns: 3
-    tab: "Homelab"
-  Management:
-    tab: "Homelab"
-    style: row
-    columns: 3
-  Downloads:
-    tab: "Homelab"
-    style: row
-    columns: 3
-  Media:
-    tab: "Homelab"
-    style: row
-    columns: 3
-  Network:
-    tab: "FredonBytes"
-    style: row
-    columns: 3
-  Bookmarks:
-    tab: "Bookmarks"
-    style: column
-    columns: 6
-
-fiveColumns: true
-useEqualHeights: true
-
-background:
-  image: /images/Banner.jpeg
-  blur: sm # sm, md, lg, xl
-  saturate: 50 # 0-200 (sytost)
-  brightness: 50 # 0-200 (jas)
-  opacity: 60
-
+# Basic Site Settings
+title: sienna/Homepage
+language: en
 theme: dark
-color: gray
-cardBlur: md
-headerStyle: underlined
-favicon: /images/favicon.ico
-
-providers:
-  finnhub: cuf975hr01qno7m585ngcuf975hr01qno7m585o0
-  openweathermap: 2c694f34ac4dd3eb8e6fad1f16f0ca9c
-base: https://home.hajd.cloud
-
-quicklaunch:
-  searchDescriptions: true
-  hideInternetSearch: true
-  showSearchSuggestions: true
-  hideVisitURL: true
-  provider: google # google, duckduckgo, bing, baidu, brave or custom
-
+color: zinc
+target: _self
+headerStyle: boxed
+statusStyle: "dot"
 hideVersion: true
-logpath: /logfile/logs
-hideTitle: false
-showStats: true
-target: _blank
-statusStyle: dot
-maxGroupColumns: 8 # default is 4 for services, 6 for bookmarks, max 8
-maxBookmarkGroupColumns: 10 # default is 6, max 8
 disableCollapse: true
+
+# Site Assets
+base: https://home.example.com
+favicon: /icons/favicon-small.png
+background:
+    image: /images/background.png
+
+# Layout Configuration
+layout:
+  # HOME Tab Items
+  Files Management:
+      style: column
+      tab: HOME
+      icon: mdi-file-multiple
+  Media Processing:
+      style: column
+      tab: HOME
+      icon: mdi-multimedia
+  Media Management:
+      style: column
+      tab: HOME
+      icon: mdi-expansion-card
+  System Monitoring:
+      style: column
+      tab: HOME
+      icon: mdi-server
+  Cloud Services:
+      style: column
+      tab: HOME
+      icon: mdi-google-cloud
+  Sharing Platforms:
+      style: column
+      tab: HOME
+      icon: mdi-share-all
+  Tools Collection:
+      style: column
+      tab: HOME
+      icon: mdi-tools
+  Discord Bots:
+      style: column
+      tab: HOME
+      icon: mdi-robot
+  Game Servers:
+      style: column
+      tab: HOME
+      icon: mdi-gamepad-variant
+  _hidden0:
+      style: column
+      tab: HOME
+  _hidden1:
+      style: column
+      tab: HOME
+  # STAT Tab Items
+  Document Directories:
+      style: column
+      tab: STAT
+      icon: mdi-file-document-outline
+  Camera Galleries:
+      style: column
+      tab: STAT
+      icon: mdi-camera-outline
+  Music Libraries:
+      style: column
+      tab: STAT
+      icon: mdi-music-box-outline
+  Movies Library:
+      style: column
+      tab: STAT
+      icon: mdi-movie-roll
+  Series Library:
+      style: column
+      tab: STAT
+      icon: mdi-television-classic
+  Clips Library:
+      style: column
+      tab: STAT
+      icon: mdi-movie-outline
+  Watch Time:
+      style: column
+      tab: STAT
+      icon: mdi-account-group-outline
+  Popular Clients:
+      style: column
+      tab: STAT
+      icon: mdi-cellphone-link
+  Release Calendar:
+      style: column
+      tab: STAT
+      icon: mdi-calendar
+  # DEPS Tab Items
+  Databases:
+      style: column
+      tab: DEPS
+      icon: mdi-database
+  ⠀:
+      style: column
+      tab: DEPS
+  ⠀⠀:
+      style: column
+      tab: DEPS
+  ⠀⠀⠀:
+      style: column
+      tab: DEPS
+  ⠀⠀⠀⠀:
+      style: column
+      tab: DEPS
+  ⠀⠀⠀⠀⠀:
+      style: column
+      tab: DEPS
+  Homepage Configuration:
+      style: column
+      tab: DEPS
+      icon: mdi-home

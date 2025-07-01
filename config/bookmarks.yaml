@@ -1,57 +1,41 @@
----
-# For configuration options and examples, please see:
-# https://gethomepage.dev/configs/bookmarks/
-- Personal:
-    - Github:
-        - href: https://github.com/patrik-fredon
-          icon: github.png
-    - YouTube:
-        - href: https://youtube.com/
-          icon: youtube.png
-    - Reddit:
-        - href: https://reddit.com/
-          icon: reddit.png
-    - Twitter:
-        - href: https://twitter.com/
-          icon: twitter.png
-    - Proton:
-        - href: https://proton.me/
-          icon: proton-mail.png
+- _hidden0:
+    - Dashboard:
+      - icon: /icons/services/unraid.png
+        href: http://example.local:8090/Dashboard
+        description: ⠀
 
-- Hosting:
-    - Wiki:
-        - href: https://wiki.homelab-fredon.space/
-          icon: wikijs.png
-    - Immich:
-        - href: https://immich.homelab-fredon.space/
-          icon: immich.png
-    - Homelab:
-        - href: https://homelab-fredon.space/ # Either 2 and 4 tab spacing work
-          icon: fredon.png
-- AI:
-    - Perplexity:
-        - href: https://perplexity.ai/
-          icon: perplexity.png
-    - Grok:
-        - href: https://grok.com/
-          icon: grok.png
-    - DeepSeek:
-        - href: https://deepseek.com/
-          icon: deepseek.png
+    - Docker:
+      - icon: sh-docker
+        href: http://example.local:8090/Docker
+        description: ⠀
 
-- Tools:
-    - YAMLValidator:
-        - href: https://codebeautify.org/yaml-validator/
-          abbr: YM
-    - JSONFormatter:
-        - href: https://jsonformatter.org/
-          abbr: JF
-    - ITtools:
-        - href: https://ittools.tech/
-          abbr: IT
-    - Beszel:
-        - href: https://monbes.homelab-fredon.space/
-          abbr: BZ
+    - Navigator:
+      - icon: files.png
+        href: http://example.local:8090/Settings/Browse?dir=/mnt
+        description: ⠀
+      
+    - Scripts:
+      - icon: /icons/services/scripts.png
+        href: http://example.local:8090/Settings/Userscripts
+        description: ⠀
+
+- _hidden1:
     - Cloudflare:
-        - href: https://cloudflare.com/
-          abbr: CD
+      - icon: cloudflare.png
+        href: https://dash.cloudflare.com/[REDACTED-ZONE-ID]/example.com/dns/records
+        description: ⠀
+
+    - Flareddns:
+      - icon: /icons/services/flareddns.png
+        href: http://example.local:8090/Docker/UpdateContainer?xmlTemplate=edit:/path/to/config/template.xml
+        description: ⠀
+
+    - Nginx:
+      - icon: nginx.png
+        href: http://0.0.0.0/nginx/proxy
+        description: ⠀
+
+    - Pihole:
+      - icon: pi-hole.png
+        href: http://0.0.0.0
+        description: ⠀

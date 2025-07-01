@@ -1,0 +1,24 @@
+[2025-07-01T09:05:12.877Z] error: undefined
+[2025-07-01T09:05:12.882Z] error: TypeError: Cannot convert undefined or null to object
+    at Function.entries (<anonymous>)
+    at l (/app/.next/server/pages/api/widgets/stocks.js:1:1302)
+    at X (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:18447)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async z.render (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:19237)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:671:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:302:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:899:17)
+    at async invokeRender (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:237:21)
+    at async handleRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:428:24)
+[2025-07-01T09:05:14.596Z] error: undefined
+[2025-07-01T09:05:14.597Z] error: TypeError: Cannot convert undefined or null to object
+    at Function.entries (<anonymous>)
+    at l (/app/.next/server/pages/api/widgets/stocks.js:1:1302)
+    at X (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:18447)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async z.render (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:19237)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:671:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:302:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:899:17)
+    at async invokeRender (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:237:21)
+    at async handleRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:428:24)

@@ -1,57 +1,72 @@
----
-# For configuration options and examples, please see:
-# https://gethomepage.dev/widgets/
 - logo:
-    icon: /images/web-app-manifest-512x512.png
+    icon: /icons/favicon-large.png
+
+- greeting:
+    text_size: 4xl
+    text: example.com
 
 - resources:
-    cpu: true
-    memory: true
-    disk:
-      - /
-      - /mnt/backup
-    expanded: true
+    expanded: false
+    cpu: true 
     cputemp: true
-    tempmin: 0
-    tempmax: 80
-    uptime: true
-    network: true
-    diskUnits: bytes
-    refresh: 3000
-    label: System
+    memory: true  
+    refresh: 1000
 
-- openweathermap:
-    label: Brno, CZ
-    units: metric
-    provider: openweathermap
-    cache: 10
+- greeting:
+    text_size: 4xl
+    text: —
+
+- resources: 
+    label: ARRAY
+    expanded: true 
+    disk:
+     - /array
+
+- resources: 
+    label: CACHE
+    expanded: true 
+    disk:
+     - /cache
+
+- resources: 
+    label: DEPOT
+    expanded: true 
+    disk:
+     - /depot
+
+- greeting:
+    text_size: 4xl
+    text: —
+
+- resources: 
+    expanded: false
+    uptime: true 
+    refresh: 1000
 
 - datetime:
-    text_size: xl
+    text_size: 4xl
     format:
-      dateStyle: short
-      timeStyle: short
-      hour12: true
-      timeZone: "Europe/Prague"
+        timeStyle: short
+        hour12: false
 
-# - glances:
-# url: http://{{HOMEPAGE_VAR_SERVER_IP}}:61208
-# expanded: true
-# label: Glances
+- datetime:
+    text_size: md
+    format:
+        dateStyle: long
+        hour12: false
 
-- stocks:
-    provider: finnhub
-    watchlist:
-      - GME
-      - AMC
-      - NVDA
-      - AMD
-      - TSM
-      - MSFT
-      - AAPL
-      - BRK.A
-#- search:
-#   provider: google
-#  focus: false # Auto-focus při načtení
-#target: _blank
-# showSearchSuggestions: true
+- search:
+    provider: google 
+    focus: true
+    showSearchSuggestions: true
+    target: _parent
+
+- openmeteo:
+    label: Location
+    latitude: 0.00
+    longitude: 0.00
+    timezone: UTC/Etc
+    units: metric
+    cache: 5
+    format:
+      maximumFractionDigits: 0
