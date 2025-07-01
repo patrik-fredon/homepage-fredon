@@ -1,41 +1,78 @@
-- _hidden0:
-    - Dashboard:
-      - icon: /icons/services/unraid.png
-        href: http://example.local:8090/Dashboard
-        description: ⠀
+---
+- Quick:
+    - YouTube:
+        - icon: youtube.png
+          href: https://youtube.com
+          description: Video Monopoly
+    - Proton Mail:
+        - icon: proton-mail.png
+          href: https://mail.proton.me
+          description: Encrypted Email
+    - Simple Login:
+        - icon: simplelogin.svg
+          href: https://app.simplelogin.io
+          description: Email Alias
+    - Reddit:
+        - icon: reddit.png
+          href: https://reddit.com/
+    - X:
+        - icon: twitter.png
+          href: https://x.com
+    - Discord:
+        - icon: discord.png
+          href: https://discord.com
+    - Immich:
+        - icon: beszel.png
+          href: https://immich.homelab-fredon.space/
+    - Secure notes:
+        - icon: scrypted.png
+          href: https://tmp.hajd.cloud/
 
-    - Docker:
-      - icon: sh-docker
-        href: http://example.local:8090/Docker
-        description: ⠀
-
-    - Navigator:
-      - icon: files.png
-        href: http://example.local:8090/Settings/Browse?dir=/mnt
-        description: ⠀
-      
-    - Scripts:
-      - icon: /icons/services/scripts.png
-        href: http://example.local:8090/Settings/Userscripts
-        description: ⠀
-
-- _hidden1:
+- Dev:
+    - GitHub:
+        - icon: github.png
+          href: "https://github.com/patrik-fredon/"
+    - Homelab:
+        - icon: fredon.png
+          href: https://homelab-fredon.space
+    - Grok:
+        - icon: fredon.png
+          href: https://grok.com/
+    - DeepSeek:
+        - icon: fredon.png
+          href: https://deepseek.com/
+    - Perplexity:
+        - icon: fredon.png
+          href: https://perplexity.com/
+    - IT tools:
+        - icon: it-tools.png
+          href: https://ittools.tech
+    - Tailscale:
+        - icon: tailscale.png
+          href: https://login.tailscale.com/admin/machines
     - Cloudflare:
-      - icon: cloudflare.png
-        href: https://dash.cloudflare.com/[REDACTED-ZONE-ID]/example.com/dns/records
-        description: ⠀
+        - icon: cloudflare:.png
+          href: https://dash.cloudflare.com/90d169683e2869d672bfed9598d33822/home/domains
+    - Beszel:
+        - icon: beszel.png
+          href: https://monbes.homelab-fredon.space/
+    - Vercel:
+        - icon: vercel.png
+          href: https://vercel.com/
 
-    - Flareddns:
-      - icon: /icons/services/flareddns.png
-        href: http://example.local:8090/Docker/UpdateContainer?xmlTemplate=edit:/path/to/config/template.xml
-        description: ⠀
-
-    - Nginx:
-      - icon: nginx.png
-        href: http://0.0.0.0/nginx/proxy
-        description: ⠀
-
-    - Pihole:
-      - icon: pi-hole.png
-        href: http://0.0.0.0
-        description: ⠀
+- Docs:
+    - Homepage:
+        - icon: homepage.png
+          href: https://gethomepage.dev/main/
+          description: Homepage Documentation
+    - Artifact Hub:
+        - icon: helm.svg
+          href: https://artifacthub.io
+          description: Helm Charts
+    - Dashboard Icons:
+        - icon: github.svg
+          href: https://github.com/walkxcode/dashboard-icons
+          description: Icon Repository
+    - Wikijs:
+        - icon: wikijs.png
+          href: https://wiki.homelab-fredon.space/

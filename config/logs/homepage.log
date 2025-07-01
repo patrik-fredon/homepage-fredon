@@ -1,24 +1,1809 @@
-[2025-07-01T09:05:12.877Z] error: undefined
-[2025-07-01T09:05:12.882Z] error: TypeError: Cannot convert undefined or null to object
-    at Function.entries (<anonymous>)
-    at l (/app/.next/server/pages/api/widgets/stocks.js:1:1302)
-    at X (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:18447)
-    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-07-01T10:45:44.040Z] info: docker.yaml was copied to the config folder
+[2025-07-01T10:45:44.042Z] info: custom.css was copied to the config folder
+[2025-07-01T10:45:44.042Z] info: custom.js was copied to the config folder
+[2025-07-01T10:45:44.111Z] error: undefined
+[2025-07-01T10:45:44.116Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at u (/app/.next/server/pages/api/services/proxy.js:45:12681)
+    at async X (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:18441)
     at async z.render (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:19237)
     at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:671:9)
     at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:302:37)
     at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:899:17)
     at async invokeRender (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:237:21)
     at async handleRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:428:24)
-[2025-07-01T09:05:14.596Z] error: undefined
-[2025-07-01T09:05:14.597Z] error: TypeError: Cannot convert undefined or null to object
-    at Function.entries (<anonymous>)
-    at l (/app/.next/server/pages/api/widgets/stocks.js:1:1302)
-    at X (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:18447)
-    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async requestHandlerImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:452:13)
+[2025-07-01T10:45:44.439Z] error: undefined
+[2025-07-01T10:45:44.441Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at u (/app/.next/server/pages/api/services/proxy.js:45:12681)
+    at async X (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:18441)
     at async z.render (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:19237)
     at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:671:9)
     at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:302:37)
     at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:899:17)
     at async invokeRender (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:237:21)
     at async handleRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:428:24)
+    at async requestHandlerImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:452:13)
+[2025-07-01T10:45:45.508Z] error: undefined
+[2025-07-01T10:45:45.509Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at u (/app/.next/server/pages/api/services/proxy.js:45:12681)
+    at async X (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:18441)
+    at async z.render (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:19237)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:671:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:302:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:899:17)
+    at async invokeRender (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:237:21)
+    at async handleRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:428:24)
+    at async requestHandlerImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:452:13)
+[2025-07-01T10:45:47.190Z] error: <httpProxy> Error calling http://192.168.0.115:8760/api/server-info/version...
+[2025-07-01T10:45:47.191Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.0.115:8760
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.0.115:8760) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.0.115',
+    port: 8760
+  }
+]
+[2025-07-01T10:45:47.191Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://192.168.0.115:8760/api/server-info/version
+[2025-07-01T10:45:47.192Z] error: <httpProxy> Error calling http://192.168.0.115:8760/api/server-info/stats...
+[2025-07-01T10:45:47.192Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.0.115:8760
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.0.115:8760) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.0.115',
+    port: 8760
+  }
+]
+[2025-07-01T10:45:47.193Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://192.168.0.115:8760/api/server-info/stats
+[2025-07-01T10:45:47.193Z] error: <httpProxy> Error calling http://192.168.0.115:8760/api/server-info/version...
+[2025-07-01T10:45:47.193Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.0.115:8760
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.0.115:8760) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.0.115',
+    port: 8760
+  }
+]
+[2025-07-01T10:45:47.193Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://192.168.0.115:8760/api/server-info/version
+[2025-07-01T10:45:47.194Z] error: <httpProxy> Error calling http://192.168.0.115:8760/api/server-info/stats...
+[2025-07-01T10:45:47.194Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.0.115:8760
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.0.115:8760) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.0.115',
+    port: 8760
+  }
+]
+[2025-07-01T10:45:47.194Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://192.168.0.115:8760/api/server-info/stats
+[2025-07-01T10:45:47.194Z] error: <httpProxy> Error calling http://192.168.0.115:8760/api/server-info/version...
+[2025-07-01T10:45:47.195Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.0.115:8760
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.0.115:8760) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.0.115',
+    port: 8760
+  }
+]
+[2025-07-01T10:45:47.195Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://192.168.0.115:8760/api/server-info/version
+[2025-07-01T10:45:47.195Z] error: <httpProxy> Error calling http://192.168.0.115:8760/api/server-info/stats...
+[2025-07-01T10:45:47.196Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.0.115:8760
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.0.115:8760) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.0.115',
+    port: 8760
+  }
+]
+[2025-07-01T10:45:47.196Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://192.168.0.115:8760/api/server-info/stats
+[2025-07-01T10:45:47.900Z] error: undefined
+[2025-07-01T10:45:47.901Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at u (/app/.next/server/pages/api/services/proxy.js:45:12681)
+    at async X (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:18441)
+    at async z.render (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:19237)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:671:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:302:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:899:17)
+    at async invokeRender (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:237:21)
+    at async handleRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:428:24)
+    at async requestHandlerImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:452:13)
+[2025-07-01T10:45:48.778Z] error: undefined
+[2025-07-01T10:45:48.779Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at u (/app/.next/server/pages/api/services/proxy.js:45:12681)
+    at async X (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:18441)
+    at async z.render (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:19237)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:671:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:302:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:899:17)
+    at async invokeRender (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:237:21)
+    at async handleRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:428:24)
+    at async requestHandlerImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:452:13)
+[2025-07-01T10:45:50.260Z] error: <httpProxy> Error calling http://192.168.0.115:8760/api/server-info/version...
+[2025-07-01T10:45:50.261Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.0.115:8760
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.0.115:8760) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.0.115',
+    port: 8760
+  }
+]
+[2025-07-01T10:45:50.261Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://192.168.0.115:8760/api/server-info/version
+[2025-07-01T10:45:50.262Z] error: <httpProxy> Error calling http://192.168.0.115:8760/api/server-info/stats...
+[2025-07-01T10:45:50.262Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.0.115:8760
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.0.115:8760) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.0.115',
+    port: 8760
+  }
+]
+[2025-07-01T10:45:50.262Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://192.168.0.115:8760/api/server-info/stats
+[2025-07-01T10:45:50.262Z] error: <httpProxy> Error calling http://192.168.0.115:8760/api/server-info/version...
+[2025-07-01T10:45:50.263Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.0.115:8760
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.0.115:8760) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.0.115',
+    port: 8760
+  }
+]
+[2025-07-01T10:45:50.263Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://192.168.0.115:8760/api/server-info/version
+[2025-07-01T10:45:50.263Z] error: <httpProxy> Error calling http://192.168.0.115:8760/api/server-info/stats...
+[2025-07-01T10:45:50.264Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.0.115:8760
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.0.115:8760) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.0.115',
+    port: 8760
+  }
+]
+[2025-07-01T10:45:50.264Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://192.168.0.115:8760/api/server-info/stats
+[2025-07-01T10:45:53.806Z] error: undefined
+[2025-07-01T10:45:53.807Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at u (/app/.next/server/pages/api/services/proxy.js:45:12681)
+    at async X (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:18441)
+    at async z.render (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:19237)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:671:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:302:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:899:17)
+    at async invokeRender (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:237:21)
+    at async handleRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:428:24)
+    at async requestHandlerImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:452:13)
+[2025-07-01T10:46:02.336Z] error: undefined
+[2025-07-01T10:46:02.336Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at u (/app/.next/server/pages/api/services/proxy.js:45:12681)
+    at async X (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:18441)
+    at async z.render (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:19237)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:671:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:302:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:899:17)
+    at async invokeRender (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:237:21)
+    at async handleRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:428:24)
+    at async requestHandlerImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:452:13)
+[2025-07-01T10:46:05.429Z] error: <httpProxy> Error calling http://192.168.0.115:8760/api/server-info/version...
+[2025-07-01T10:46:05.429Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.0.115:8760
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.0.115:8760) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.0.115',
+    port: 8760
+  }
+]
+[2025-07-01T10:46:05.429Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://192.168.0.115:8760/api/server-info/version
+[2025-07-01T10:46:05.430Z] error: <httpProxy> Error calling http://192.168.0.115:8760/api/server-info/stats...
+[2025-07-01T10:46:05.430Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.0.115:8760
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.0.115:8760) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.0.115',
+    port: 8760
+  }
+]
+[2025-07-01T10:46:05.430Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://192.168.0.115:8760/api/server-info/stats
+[2025-07-01T10:46:07.341Z] error: undefined
+[2025-07-01T10:46:07.342Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at u (/app/.next/server/pages/api/services/proxy.js:45:12681)
+    at async X (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:18441)
+    at async z.render (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:19237)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:671:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:302:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:899:17)
+    at async invokeRender (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:237:21)
+    at async handleRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:428:24)
+    at async requestHandlerImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:452:13)
+[2025-07-01T10:46:08.821Z] error: undefined
+[2025-07-01T10:46:08.822Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at u (/app/.next/server/pages/api/services/proxy.js:45:12681)
+    at async X (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:18441)
+    at async z.render (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:19237)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:671:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:302:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:899:17)
+    at async invokeRender (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:237:21)
+    at async handleRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:428:24)
+    at async requestHandlerImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:452:13)
+[2025-07-01T10:46:17.422Z] error: undefined
+[2025-07-01T10:46:17.423Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at u (/app/.next/server/pages/api/services/proxy.js:45:12681)
+    at async X (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:18441)
+    at async z.render (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:19237)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:671:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:302:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:899:17)
+    at async invokeRender (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:237:21)
+    at async handleRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:428:24)
+    at async requestHandlerImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:452:13)
+[2025-07-01T10:46:55.440Z] error: undefined
+[2025-07-01T10:46:55.441Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at u (/app/.next/server/pages/api/services/proxy.js:45:12681)
+    at async X (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:18441)
+    at async z.render (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:19237)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:671:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:302:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:899:17)
+    at async invokeRender (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:237:21)
+    at async handleRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:428:24)
+    at async requestHandlerImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:452:13)
+[2025-07-01T10:47:07.429Z] error: undefined
+[2025-07-01T10:47:07.430Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at u (/app/.next/server/pages/api/services/proxy.js:45:12681)
+    at async X (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:18441)
+    at async z.render (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:19237)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:671:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:302:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:899:17)
+    at async invokeRender (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:237:21)
+    at async handleRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:428:24)
+    at async requestHandlerImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:452:13)
+[2025-07-01T10:47:58.388Z] error: <httpProxy> Error calling http://10.43.1.73/api/speedtest/latest...
+[2025-07-01T10:47:58.388Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 10.43.1.73:80
+      at <unknown> (Error: connect ETIMEDOUT 10.43.1.73:80) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '10.43.1.73',
+    port: 80
+  }
+]
+[2025-07-01T10:47:58.388Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://10.43.1.73/api/speedtest/latest
+[2025-07-01T10:47:58.389Z] error: <httpProxy> Error calling http://10.43.1.73/api/speedtest/latest...
+[2025-07-01T10:47:58.389Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 10.43.1.73:80
+      at <unknown> (Error: connect ETIMEDOUT 10.43.1.73:80) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '10.43.1.73',
+    port: 80
+  }
+]
+[2025-07-01T10:47:58.389Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://10.43.1.73/api/speedtest/latest
+[2025-07-01T10:47:58.389Z] error: <httpProxy> Error calling http://10.43.1.73/api/speedtest/latest...
+[2025-07-01T10:47:58.389Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 10.43.1.73:80
+      at <unknown> (Error: connect ETIMEDOUT 10.43.1.73:80) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '10.43.1.73',
+    port: 80
+  }
+]
+[2025-07-01T10:47:58.389Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://10.43.1.73/api/speedtest/latest
+[2025-07-01T10:47:58.390Z] error: <httpProxy> Error calling http://10.43.80.45:3001/api/status-page/heartbeat/home...
+[2025-07-01T10:47:58.390Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 10.43.80.45:3001
+      at <unknown> (Error: connect ETIMEDOUT 10.43.80.45:3001) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '10.43.80.45',
+    port: 3001
+  }
+]
+[2025-07-01T10:47:58.390Z] error: <httpProxy> Error calling http://10.43.80.45:3001/api/status-page/heartbeat/home...
+[2025-07-01T10:47:58.390Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 10.43.80.45:3001
+      at <unknown> (Error: connect ETIMEDOUT 10.43.80.45:3001) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '10.43.80.45',
+    port: 3001
+  }
+]
+[2025-07-01T10:47:58.391Z] error: <httpProxy> Error calling http://10.43.80.45:3001/api/status-page/heartbeat/home...
+[2025-07-01T10:47:58.391Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 10.43.80.45:3001
+      at <unknown> (Error: connect ETIMEDOUT 10.43.80.45:3001) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '10.43.80.45',
+    port: 3001
+  }
+]
+[2025-07-01T10:47:58.391Z] error: <httpProxy> Error calling http://10.43.80.45:3001/api/status-page/home...
+[2025-07-01T10:47:58.391Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 10.43.80.45:3001
+      at <unknown> (Error: connect ETIMEDOUT 10.43.80.45:3001) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '10.43.80.45',
+    port: 3001
+  }
+]
+[2025-07-01T10:47:58.391Z] error: <httpProxy> Error calling http://10.43.80.45:3001/api/status-page/home...
+[2025-07-01T10:47:58.392Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 10.43.80.45:3001
+      at <unknown> (Error: connect ETIMEDOUT 10.43.80.45:3001) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '10.43.80.45',
+    port: 3001
+  }
+]
+[2025-07-01T10:47:58.392Z] error: <httpProxy> Error calling http://10.43.80.45:3001/api/status-page/home...
+[2025-07-01T10:47:58.392Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 10.43.80.45:3001
+      at <unknown> (Error: connect ETIMEDOUT 10.43.80.45:3001) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '10.43.80.45',
+    port: 3001
+  }
+]
+[2025-07-01T10:48:02.484Z] error: <httpProxy> Error calling http://10.43.1.73/api/speedtest/latest...
+[2025-07-01T10:48:02.484Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 10.43.1.73:80
+      at <unknown> (Error: connect ETIMEDOUT 10.43.1.73:80) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '10.43.1.73',
+    port: 80
+  }
+]
+[2025-07-01T10:48:02.485Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://10.43.1.73/api/speedtest/latest
+[2025-07-01T10:48:02.485Z] error: <httpProxy> Error calling http://10.43.1.73/api/speedtest/latest...
+[2025-07-01T10:48:02.485Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 10.43.1.73:80
+      at <unknown> (Error: connect ETIMEDOUT 10.43.1.73:80) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '10.43.1.73',
+    port: 80
+  }
+]
+[2025-07-01T10:48:02.485Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://10.43.1.73/api/speedtest/latest
+[2025-07-01T10:48:02.486Z] error: <httpProxy> Error calling http://10.43.80.45:3001/api/status-page/heartbeat/home...
+[2025-07-01T10:48:02.486Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 10.43.80.45:3001
+      at <unknown> (Error: connect ETIMEDOUT 10.43.80.45:3001) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '10.43.80.45',
+    port: 3001
+  }
+]
+[2025-07-01T10:48:02.486Z] error: <httpProxy> Error calling http://10.43.80.45:3001/api/status-page/heartbeat/home...
+[2025-07-01T10:48:02.486Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 10.43.80.45:3001
+      at <unknown> (Error: connect ETIMEDOUT 10.43.80.45:3001) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '10.43.80.45',
+    port: 3001
+  }
+]
+[2025-07-01T10:48:02.487Z] error: <httpProxy> Error calling http://10.43.80.45:3001/api/status-page/home...
+[2025-07-01T10:48:02.487Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 10.43.80.45:3001
+      at <unknown> (Error: connect ETIMEDOUT 10.43.80.45:3001) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '10.43.80.45',
+    port: 3001
+  }
+]
+[2025-07-01T10:48:02.487Z] error: <httpProxy> Error calling http://10.43.80.45:3001/api/status-page/home...
+[2025-07-01T10:48:02.488Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 10.43.80.45:3001
+      at <unknown> (Error: connect ETIMEDOUT 10.43.80.45:3001) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '10.43.80.45',
+    port: 3001
+  }
+]
+[2025-07-01T10:49:44.422Z] error: undefined
+[2025-07-01T10:49:44.425Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at u (/app/.next/server/pages/api/services/proxy.js:45:12681)
+    at async X (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:18441)
+    at async z.render (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:19237)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:671:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:302:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:899:17)
+    at async invokeRender (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:237:21)
+    at async handleRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:428:24)
+    at async requestHandlerImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:452:13)
+[2025-07-01T10:49:44.663Z] error: undefined
+[2025-07-01T10:49:44.664Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at u (/app/.next/server/pages/api/services/proxy.js:45:12681)
+    at async X (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:18441)
+    at async z.render (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:19237)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:671:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:302:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:899:17)
+    at async invokeRender (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:237:21)
+    at async handleRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:428:24)
+    at async requestHandlerImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:452:13)
+[2025-07-01T10:49:46.746Z] error: undefined
+[2025-07-01T10:49:46.747Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at u (/app/.next/server/pages/api/services/proxy.js:45:12681)
+    at async X (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:18441)
+    at async z.render (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:19237)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:671:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:302:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:899:17)
+    at async invokeRender (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:237:21)
+    at async handleRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:428:24)
+    at async requestHandlerImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:452:13)
+[2025-07-01T10:49:47.340Z] error: undefined
+[2025-07-01T10:49:47.341Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at u (/app/.next/server/pages/api/services/proxy.js:45:12681)
+    at async X (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:18441)
+    at async z.render (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:19237)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:671:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:302:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:899:17)
+    at async invokeRender (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:237:21)
+    at async handleRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:428:24)
+    at async requestHandlerImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:452:13)
+[2025-07-01T10:49:47.509Z] error: <httpProxy> Error calling http://192.168.0.115:8760/api/server-info/version...
+[2025-07-01T10:49:47.509Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.0.115:8760
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.0.115:8760) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.0.115',
+    port: 8760
+  }
+]
+[2025-07-01T10:49:47.510Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://192.168.0.115:8760/api/server-info/version
+[2025-07-01T10:49:47.510Z] error: <httpProxy> Error calling http://192.168.0.115:8760/api/server-info/stats...
+[2025-07-01T10:49:47.511Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.0.115:8760
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.0.115:8760) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.0.115',
+    port: 8760
+  }
+]
+[2025-07-01T10:49:47.511Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://192.168.0.115:8760/api/server-info/stats
+[2025-07-01T10:49:47.511Z] error: <httpProxy> Error calling http://192.168.0.115:8760/api/server-info/version...
+[2025-07-01T10:49:47.511Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.0.115:8760
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.0.115:8760) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.0.115',
+    port: 8760
+  }
+]
+[2025-07-01T10:49:47.511Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://192.168.0.115:8760/api/server-info/version
+[2025-07-01T10:49:47.512Z] error: <httpProxy> Error calling http://192.168.0.115:8760/api/server-info/stats...
+[2025-07-01T10:49:47.512Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.0.115:8760
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.0.115:8760) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.0.115',
+    port: 8760
+  }
+]
+[2025-07-01T10:49:47.512Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://192.168.0.115:8760/api/server-info/stats
+[2025-07-01T10:49:47.512Z] error: <httpProxy> Error calling http://192.168.0.115:8760/api/server-info/version...
+[2025-07-01T10:49:47.512Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.0.115:8760
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.0.115:8760) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.0.115',
+    port: 8760
+  }
+]
+[2025-07-01T10:49:47.512Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://192.168.0.115:8760/api/server-info/version
+[2025-07-01T10:49:47.513Z] error: <httpProxy> Error calling http://192.168.0.115:8760/api/server-info/stats...
+[2025-07-01T10:49:47.513Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.0.115:8760
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.0.115:8760) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.0.115',
+    port: 8760
+  }
+]
+[2025-07-01T10:49:47.513Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://192.168.0.115:8760/api/server-info/stats
+[2025-07-01T10:49:47.513Z] error: <httpProxy> Error calling http://192.168.0.115:8760/api/server-info/version...
+[2025-07-01T10:49:47.513Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.0.115:8760
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.0.115:8760) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.0.115',
+    port: 8760
+  }
+]
+[2025-07-01T10:49:47.513Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://192.168.0.115:8760/api/server-info/version
+[2025-07-01T10:49:47.513Z] error: <httpProxy> Error calling http://192.168.0.115:8760/api/server-info/stats...
+[2025-07-01T10:49:47.514Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.0.115:8760
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.0.115:8760) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.0.115',
+    port: 8760
+  }
+]
+[2025-07-01T10:49:47.514Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://192.168.0.115:8760/api/server-info/stats
+[2025-07-01T10:49:52.429Z] error: undefined
+[2025-07-01T10:49:52.430Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at u (/app/.next/server/pages/api/services/proxy.js:45:12681)
+    at async X (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:18441)
+    at async z.render (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:19237)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:671:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:302:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:899:17)
+    at async invokeRender (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:237:21)
+    at async handleRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:428:24)
+    at async requestHandlerImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:452:13)
+[2025-07-01T10:50:12.439Z] error: undefined
+[2025-07-01T10:50:12.441Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at u (/app/.next/server/pages/api/services/proxy.js:45:12681)
+    at async X (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:18441)
+    at async z.render (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:19237)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:671:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:302:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:899:17)
+    at async invokeRender (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:237:21)
+    at async handleRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:428:24)
+    at async requestHandlerImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:452:13)
+[2025-07-01T10:50:15.261Z] error: undefined
+[2025-07-01T10:50:15.262Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at u (/app/.next/server/pages/api/services/proxy.js:45:12681)
+    at async X (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:18441)
+    at async z.render (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:19237)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:671:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:302:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:899:17)
+    at async invokeRender (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:237:21)
+    at async handleRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:428:24)
+    at async requestHandlerImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:452:13)
+[2025-07-01T10:50:18.356Z] error: <httpProxy> Error calling http://192.168.0.115:8760/api/server-info/version...
+[2025-07-01T10:50:18.357Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.0.115:8760
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.0.115:8760) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.0.115',
+    port: 8760
+  }
+]
+[2025-07-01T10:50:18.357Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://192.168.0.115:8760/api/server-info/version
+[2025-07-01T10:50:20.267Z] error: undefined
+[2025-07-01T10:50:20.268Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at u (/app/.next/server/pages/api/services/proxy.js:45:12681)
+    at async X (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:18441)
+    at async z.render (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:19237)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:671:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:302:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:899:17)
+    at async invokeRender (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:237:21)
+    at async handleRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:428:24)
+    at async requestHandlerImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:452:13)
+[2025-07-01T10:50:21.428Z] error: <httpProxy> Error calling http://192.168.0.115:8760/api/server-info/stats...
+[2025-07-01T10:50:21.428Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.0.115:8760
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.0.115:8760) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.0.115',
+    port: 8760
+  }
+]
+[2025-07-01T10:50:21.428Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://192.168.0.115:8760/api/server-info/stats
+[2025-07-01T10:50:32.702Z] error: undefined
+[2025-07-01T10:50:32.703Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at u (/app/.next/server/pages/api/services/proxy.js:45:12681)
+    at async X (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:18441)
+    at async z.render (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:19237)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:671:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:302:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:899:17)
+    at async invokeRender (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:237:21)
+    at async handleRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:428:24)
+    at async requestHandlerImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:452:13)
+[2025-07-01T10:52:00.052Z] error: <httpProxy> Error calling http://10.43.1.73/api/speedtest/latest...
+[2025-07-01T10:52:00.052Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 10.43.1.73:80
+      at <unknown> (Error: connect ETIMEDOUT 10.43.1.73:80) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '10.43.1.73',
+    port: 80
+  }
+]
+[2025-07-01T10:52:00.052Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://10.43.1.73/api/speedtest/latest
+[2025-07-01T10:52:00.053Z] error: <httpProxy> Error calling http://10.43.1.73/api/speedtest/latest...
+[2025-07-01T10:52:00.053Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 10.43.1.73:80
+      at <unknown> (Error: connect ETIMEDOUT 10.43.1.73:80) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '10.43.1.73',
+    port: 80
+  }
+]
+[2025-07-01T10:52:00.053Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://10.43.1.73/api/speedtest/latest
+[2025-07-01T10:52:00.053Z] error: <httpProxy> Error calling http://10.43.1.73/api/speedtest/latest...
+[2025-07-01T10:52:00.054Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 10.43.1.73:80
+      at <unknown> (Error: connect ETIMEDOUT 10.43.1.73:80) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '10.43.1.73',
+    port: 80
+  }
+]
+[2025-07-01T10:52:00.054Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://10.43.1.73/api/speedtest/latest
+[2025-07-01T10:52:00.054Z] error: <httpProxy> Error calling http://10.43.80.45:3001/api/status-page/heartbeat/home...
+[2025-07-01T10:52:00.054Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 10.43.80.45:3001
+      at <unknown> (Error: connect ETIMEDOUT 10.43.80.45:3001) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '10.43.80.45',
+    port: 3001
+  }
+]
+[2025-07-01T10:52:00.055Z] error: <httpProxy> Error calling http://10.43.80.45:3001/api/status-page/heartbeat/home...
+[2025-07-01T10:52:00.055Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 10.43.80.45:3001
+      at <unknown> (Error: connect ETIMEDOUT 10.43.80.45:3001) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '10.43.80.45',
+    port: 3001
+  }
+]
+[2025-07-01T10:52:00.055Z] error: <httpProxy> Error calling http://10.43.80.45:3001/api/status-page/heartbeat/home...
+[2025-07-01T10:52:00.056Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 10.43.80.45:3001
+      at <unknown> (Error: connect ETIMEDOUT 10.43.80.45:3001) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '10.43.80.45',
+    port: 3001
+  }
+]
+[2025-07-01T10:52:00.056Z] error: <httpProxy> Error calling http://10.43.80.45:3001/api/status-page/home...
+[2025-07-01T10:52:00.056Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 10.43.80.45:3001
+      at <unknown> (Error: connect ETIMEDOUT 10.43.80.45:3001) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '10.43.80.45',
+    port: 3001
+  }
+]
+[2025-07-01T10:52:00.057Z] error: <httpProxy> Error calling http://10.43.80.45:3001/api/status-page/home...
+[2025-07-01T10:52:00.058Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 10.43.80.45:3001
+      at <unknown> (Error: connect ETIMEDOUT 10.43.80.45:3001) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '10.43.80.45',
+    port: 3001
+  }
+]
+[2025-07-01T10:52:00.058Z] error: <httpProxy> Error calling http://10.43.80.45:3001/api/status-page/home...
+[2025-07-01T10:52:00.058Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 10.43.80.45:3001
+      at <unknown> (Error: connect ETIMEDOUT 10.43.80.45:3001) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '10.43.80.45',
+    port: 3001
+  }
+]
+[2025-07-01T10:52:00.059Z] error: <httpProxy> Error calling http://10.43.1.73/api/speedtest/latest...
+[2025-07-01T10:52:00.059Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 10.43.1.73:80
+      at <unknown> (Error: connect ETIMEDOUT 10.43.1.73:80) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '10.43.1.73',
+    port: 80
+  }
+]
+[2025-07-01T10:52:00.059Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://10.43.1.73/api/speedtest/latest
+[2025-07-01T10:52:00.059Z] error: <httpProxy> Error calling http://10.43.80.45:3001/api/status-page/heartbeat/home...
+[2025-07-01T10:52:00.059Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 10.43.80.45:3001
+      at <unknown> (Error: connect ETIMEDOUT 10.43.80.45:3001) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '10.43.80.45',
+    port: 3001
+  }
+]
+[2025-07-01T10:52:00.060Z] error: <httpProxy> Error calling http://10.43.80.45:3001/api/status-page/home...
+[2025-07-01T10:52:00.060Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 10.43.80.45:3001
+      at <unknown> (Error: connect ETIMEDOUT 10.43.80.45:3001) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '10.43.80.45',
+    port: 3001
+  }
+]
+[2025-07-01T10:54:50.791Z] error: undefined
+[2025-07-01T10:54:50.795Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at u (/app/.next/server/pages/api/services/proxy.js:45:12681)
+    at async X (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:18441)
+    at async z.render (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:19237)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:671:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:302:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:899:17)
+    at async invokeRender (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:237:21)
+    at async handleRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:428:24)
+    at async requestHandlerImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:452:13)
+[2025-07-01T10:54:51.093Z] error: undefined
+[2025-07-01T10:54:51.095Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at u (/app/.next/server/pages/api/services/proxy.js:45:12681)
+    at async X (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:18441)
+    at async z.render (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:19237)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:671:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:302:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:899:17)
+    at async invokeRender (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:237:21)
+    at async handleRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:428:24)
+    at async requestHandlerImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:452:13)
+[2025-07-01T10:54:51.288Z] error: undefined
+[2025-07-01T10:54:51.289Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at u (/app/.next/server/pages/api/services/proxy.js:45:12681)
+    at async X (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:18441)
+    at async z.render (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:19237)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:671:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:302:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:899:17)
+    at async invokeRender (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:237:21)
+    at async handleRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:428:24)
+    at async requestHandlerImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:452:13)
+[2025-07-01T10:54:52.299Z] error: undefined
+[2025-07-01T10:54:52.300Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at u (/app/.next/server/pages/api/services/proxy.js:45:12681)
+    at async X (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:18441)
+    at async z.render (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:19237)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:671:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:302:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:899:17)
+    at async invokeRender (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:237:21)
+    at async handleRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:428:24)
+    at async requestHandlerImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:452:13)
+[2025-07-01T10:54:53.877Z] error: <httpProxy> Error calling http://192.168.0.115:8760/api/server-info/version...
+[2025-07-01T10:54:53.878Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.0.115:8760
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.0.115:8760) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.0.115',
+    port: 8760
+  }
+]
+[2025-07-01T10:54:53.878Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://192.168.0.115:8760/api/server-info/version
+[2025-07-01T10:54:53.879Z] error: <httpProxy> Error calling http://192.168.0.115:8760/api/server-info/stats...
+[2025-07-01T10:54:53.879Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.0.115:8760
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.0.115:8760) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.0.115',
+    port: 8760
+  }
+]
+[2025-07-01T10:54:53.879Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://192.168.0.115:8760/api/server-info/stats
+[2025-07-01T10:54:53.880Z] error: <httpProxy> Error calling http://192.168.0.115:8760/api/server-info/version...
+[2025-07-01T10:54:53.881Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.0.115:8760
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.0.115:8760) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.0.115',
+    port: 8760
+  }
+]
+[2025-07-01T10:54:53.881Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://192.168.0.115:8760/api/server-info/version
+[2025-07-01T10:54:53.881Z] error: <httpProxy> Error calling http://192.168.0.115:8760/api/server-info/stats...
+[2025-07-01T10:54:53.881Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.0.115:8760
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.0.115:8760) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.0.115',
+    port: 8760
+  }
+]
+[2025-07-01T10:54:53.881Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://192.168.0.115:8760/api/server-info/stats
+[2025-07-01T10:54:53.882Z] error: <httpProxy> Error calling http://192.168.0.115:8760/api/server-info/stats...
+[2025-07-01T10:54:53.882Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.0.115:8760
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.0.115:8760) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.0.115',
+    port: 8760
+  }
+]
+[2025-07-01T10:54:53.882Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://192.168.0.115:8760/api/server-info/stats
+[2025-07-01T10:54:53.882Z] error: <httpProxy> Error calling http://192.168.0.115:8760/api/server-info/version...
+[2025-07-01T10:54:53.883Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.0.115:8760
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.0.115:8760) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.0.115',
+    port: 8760
+  }
+]
+[2025-07-01T10:54:53.883Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://192.168.0.115:8760/api/server-info/version
+[2025-07-01T10:54:53.883Z] error: <httpProxy> Error calling http://192.168.0.115:8760/api/server-info/stats...
+[2025-07-01T10:54:53.883Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.0.115:8760
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.0.115:8760) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.0.115',
+    port: 8760
+  }
+]
+[2025-07-01T10:54:53.883Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://192.168.0.115:8760/api/server-info/stats
+[2025-07-01T10:54:53.884Z] error: <httpProxy> Error calling http://192.168.0.115:8760/api/server-info/version...
+[2025-07-01T10:54:53.884Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.0.115:8760
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.0.115:8760) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.0.115',
+    port: 8760
+  }
+]
+[2025-07-01T10:54:53.884Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://192.168.0.115:8760/api/server-info/version
+[2025-07-01T10:54:57.312Z] error: undefined
+[2025-07-01T10:54:57.312Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at u (/app/.next/server/pages/api/services/proxy.js:45:12681)
+    at async X (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:18441)
+    at async z.render (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:19237)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:671:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:302:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:899:17)
+    at async invokeRender (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:237:21)
+    at async handleRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:428:24)
+    at async requestHandlerImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:452:13)
+[2025-07-01T10:55:07.339Z] error: undefined
+[2025-07-01T10:55:07.340Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at u (/app/.next/server/pages/api/services/proxy.js:45:12681)
+    at async X (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:18441)
+    at async z.render (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:19237)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:671:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:302:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:899:17)
+    at async invokeRender (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:237:21)
+    at async handleRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:428:24)
+    at async requestHandlerImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:452:13)
+[2025-07-01T10:55:33.405Z] error: undefined
+[2025-07-01T10:55:33.406Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at u (/app/.next/server/pages/api/services/proxy.js:45:12681)
+    at async X (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:18441)
+    at async z.render (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:19237)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:671:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:302:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:899:17)
+    at async invokeRender (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:237:21)
+    at async handleRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:428:24)
+    at async requestHandlerImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:452:13)
+[2025-07-01T10:55:36.500Z] error: <httpProxy> Error calling http://192.168.0.115:8760/api/server-info/version...
+[2025-07-01T10:55:36.501Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.0.115:8760
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.0.115:8760) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.0.115',
+    port: 8760
+  }
+]
+[2025-07-01T10:55:36.501Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://192.168.0.115:8760/api/server-info/version
+[2025-07-01T10:55:36.502Z] error: <httpProxy> Error calling http://192.168.0.115:8760/api/server-info/stats...
+[2025-07-01T10:55:36.502Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.0.115:8760
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.0.115:8760) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.0.115',
+    port: 8760
+  }
+]
+[2025-07-01T10:55:36.502Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://192.168.0.115:8760/api/server-info/stats
+[2025-07-01T10:55:38.410Z] error: undefined
+[2025-07-01T10:55:38.411Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at u (/app/.next/server/pages/api/services/proxy.js:45:12681)
+    at async X (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:18441)
+    at async z.render (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:19237)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:671:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:302:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:899:17)
+    at async invokeRender (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:237:21)
+    at async handleRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:428:24)
+    at async requestHandlerImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:452:13)
+[2025-07-01T10:55:46.659Z] error: undefined
+[2025-07-01T10:55:46.660Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at u (/app/.next/server/pages/api/services/proxy.js:45:12681)
+    at async X (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:18441)
+    at async z.render (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:19237)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:671:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:302:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:899:17)
+    at async invokeRender (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:237:21)
+    at async handleRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:428:24)
+    at async requestHandlerImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:452:13)
+[2025-07-01T10:55:47.346Z] error: undefined
+[2025-07-01T10:55:47.347Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at u (/app/.next/server/pages/api/services/proxy.js:45:12681)
+    at async X (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:18441)
+    at async z.render (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:19237)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:671:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:302:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:899:17)
+    at async invokeRender (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:237:21)
+    at async handleRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:428:24)
+    at async requestHandlerImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:452:13)
+[2025-07-01T10:55:49.748Z] error: <httpProxy> Error calling http://192.168.0.115:8760/api/server-info/version...
+[2025-07-01T10:55:49.749Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.0.115:8760
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.0.115:8760) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.0.115',
+    port: 8760
+  }
+]
+[2025-07-01T10:55:49.749Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://192.168.0.115:8760/api/server-info/version
+[2025-07-01T10:55:49.749Z] error: <httpProxy> Error calling http://192.168.0.115:8760/api/server-info/stats...
+[2025-07-01T10:55:49.749Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.0.115:8760
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.0.115:8760) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.0.115',
+    port: 8760
+  }
+]
+[2025-07-01T10:55:49.749Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://192.168.0.115:8760/api/server-info/stats
+[2025-07-01T10:55:53.417Z] error: undefined
+[2025-07-01T10:55:53.418Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at u (/app/.next/server/pages/api/services/proxy.js:45:12681)
+    at async X (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:18441)
+    at async z.render (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:19237)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:671:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:302:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:899:17)
+    at async invokeRender (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:237:21)
+    at async handleRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:428:24)
+    at async requestHandlerImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:452:13)
+[2025-07-01T10:55:56.664Z] error: undefined
+[2025-07-01T10:55:56.665Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at u (/app/.next/server/pages/api/services/proxy.js:45:12681)
+    at async X (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:18441)
+    at async z.render (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:19237)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:671:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:302:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:899:17)
+    at async invokeRender (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:237:21)
+    at async handleRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:428:24)
+    at async requestHandlerImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:452:13)
+[2025-07-01T10:56:06.669Z] error: undefined
+[2025-07-01T10:56:06.670Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at u (/app/.next/server/pages/api/services/proxy.js:45:12681)
+    at async X (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:18441)
+    at async z.render (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:19237)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:671:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:302:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:899:17)
+    at async invokeRender (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:237:21)
+    at async handleRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:428:24)
+    at async requestHandlerImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:452:13)
+[2025-07-01T10:56:13.760Z] error: undefined
+[2025-07-01T10:56:13.760Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at u (/app/.next/server/pages/api/services/proxy.js:45:12681)
+    at async X (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:18441)
+    at async z.render (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:19237)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:671:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:302:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:899:17)
+    at async invokeRender (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:237:21)
+    at async handleRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:428:24)
+    at async requestHandlerImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:452:13)
+[2025-07-01T10:56:16.820Z] error: <httpProxy> Error calling http://192.168.0.115:8760/api/server-info/version...
+[2025-07-01T10:56:16.820Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.0.115:8760
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.0.115:8760) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.0.115',
+    port: 8760
+  }
+]
+[2025-07-01T10:56:16.820Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://192.168.0.115:8760/api/server-info/version
+[2025-07-01T10:56:16.821Z] error: <httpProxy> Error calling http://192.168.0.115:8760/api/server-info/stats...
+[2025-07-01T10:56:16.821Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.0.115:8760
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.0.115:8760) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.0.115',
+    port: 8760
+  }
+]
+[2025-07-01T10:56:16.821Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://192.168.0.115:8760/api/server-info/stats
+[2025-07-01T10:56:22.437Z] error: undefined
+[2025-07-01T10:56:22.437Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at u (/app/.next/server/pages/api/services/proxy.js:45:12681)
+    at async X (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:18441)
+    at async z.render (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:19237)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:671:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:302:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:899:17)
+    at async invokeRender (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:237:21)
+    at async handleRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:428:24)
+    at async requestHandlerImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:452:13)
+[2025-07-01T10:56:23.766Z] error: undefined
+[2025-07-01T10:56:23.767Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at u (/app/.next/server/pages/api/services/proxy.js:45:12681)
+    at async X (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:18441)
+    at async z.render (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:19237)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:671:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:302:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:899:17)
+    at async invokeRender (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:237:21)
+    at async handleRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:428:24)
+    at async requestHandlerImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:452:13)
+[2025-07-01T10:56:25.524Z] error: <httpProxy> Error calling http://192.168.0.115:8760/api/server-info/version...
+[2025-07-01T10:56:25.524Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.0.115:8760
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.0.115:8760) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.0.115',
+    port: 8760
+  }
+]
+[2025-07-01T10:56:25.524Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://192.168.0.115:8760/api/server-info/version
+[2025-07-01T10:56:25.525Z] error: <httpProxy> Error calling http://192.168.0.115:8760/api/server-info/stats...
+[2025-07-01T10:56:25.525Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.0.115:8760
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.0.115:8760) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.0.115',
+    port: 8760
+  }
+]
+[2025-07-01T10:56:25.525Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://192.168.0.115:8760/api/server-info/stats
+[2025-07-01T10:56:27.443Z] error: undefined
+[2025-07-01T10:56:27.444Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at u (/app/.next/server/pages/api/services/proxy.js:45:12681)
+    at async X (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:18441)
+    at async z.render (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:19237)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:671:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:302:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:899:17)
+    at async invokeRender (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:237:21)
+    at async handleRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:428:24)
+    at async requestHandlerImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:452:13)
+[2025-07-01T10:56:47.456Z] error: undefined
+[2025-07-01T10:56:47.461Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at u (/app/.next/server/pages/api/services/proxy.js:45:12681)
+    at async X (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:18441)
+    at async z.render (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:19237)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:671:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:302:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:899:17)
+    at async invokeRender (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:237:21)
+    at async handleRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:428:24)
+    at async requestHandlerImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:452:13)
+[2025-07-01T10:56:56.676Z] error: undefined
+[2025-07-01T10:56:56.677Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at u (/app/.next/server/pages/api/services/proxy.js:45:12681)
+    at async X (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:18441)
+    at async z.render (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:19237)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:671:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:302:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:899:17)
+    at async invokeRender (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:237:21)
+    at async handleRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:428:24)
+    at async requestHandlerImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:452:13)
+[2025-07-01T10:57:03.776Z] error: undefined
+[2025-07-01T10:57:03.779Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at u (/app/.next/server/pages/api/services/proxy.js:45:12681)
+    at async X (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:18441)
+    at async z.render (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:19237)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:671:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:302:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:899:17)
+    at async invokeRender (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:237:21)
+    at async handleRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:428:24)
+    at async requestHandlerImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:452:13)
+[2025-07-01T10:57:07.352Z] error: undefined
+[2025-07-01T10:57:07.354Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at u (/app/.next/server/pages/api/services/proxy.js:45:12681)
+    at async X (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:18441)
+    at async z.render (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:19237)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:671:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:302:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:899:17)
+    at async invokeRender (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:237:21)
+    at async handleRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:428:24)
+    at async requestHandlerImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:452:13)
+[2025-07-01T10:57:28.847Z] error: undefined
+[2025-07-01T10:57:28.852Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at u (/app/.next/server/pages/api/services/proxy.js:45:12681)
+    at async X (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:18441)
+    at async z.render (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:19237)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:671:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:302:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:899:17)
+    at async invokeRender (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:237:21)
+    at async handleRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:428:24)
+    at async requestHandlerImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:452:13)
+[2025-07-01T10:57:29.136Z] error: undefined
+[2025-07-01T10:57:29.137Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at u (/app/.next/server/pages/api/services/proxy.js:45:12681)
+    at async X (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:18441)
+    at async z.render (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:19237)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:671:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:302:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:899:17)
+    at async invokeRender (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:237:21)
+    at async handleRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:428:24)
+    at async requestHandlerImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:452:13)
+[2025-07-01T10:57:31.956Z] error: <httpProxy> Error calling http://192.168.0.115:8760/api/server-info/version...
+[2025-07-01T10:57:31.957Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.0.115:8760
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.0.115:8760) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.0.115',
+    port: 8760
+  }
+]
+[2025-07-01T10:57:31.958Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://192.168.0.115:8760/api/server-info/version
+[2025-07-01T10:57:31.958Z] error: <httpProxy> Error calling http://192.168.0.115:8760/api/server-info/stats...
+[2025-07-01T10:57:31.959Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.0.115:8760
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.0.115:8760) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.0.115',
+    port: 8760
+  }
+]
+[2025-07-01T10:57:31.959Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://192.168.0.115:8760/api/server-info/stats
+[2025-07-01T10:57:31.959Z] error: <httpProxy> Error calling http://192.168.0.115:8760/api/server-info/stats...
+[2025-07-01T10:57:31.960Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.0.115:8760
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.0.115:8760) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.0.115',
+    port: 8760
+  }
+]
+[2025-07-01T10:57:31.960Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://192.168.0.115:8760/api/server-info/stats
+[2025-07-01T10:57:31.960Z] error: <httpProxy> Error calling http://192.168.0.115:8760/api/server-info/version...
+[2025-07-01T10:57:31.961Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.0.115:8760
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.0.115:8760) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.0.115',
+    port: 8760
+  }
+]
+[2025-07-01T10:57:31.961Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://192.168.0.115:8760/api/server-info/version
+[2025-07-01T10:57:34.150Z] error: undefined
+[2025-07-01T10:57:34.150Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at u (/app/.next/server/pages/api/services/proxy.js:45:12681)
+    at async X (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:18441)
+    at async z.render (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:19237)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:671:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:302:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:899:17)
+    at async invokeRender (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:237:21)
+    at async handleRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:428:24)
+    at async requestHandlerImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:452:13)
+[2025-07-01T10:57:54.156Z] error: undefined
+[2025-07-01T10:57:54.157Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at u (/app/.next/server/pages/api/services/proxy.js:45:12681)
+    at async X (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:18441)
+    at async z.render (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:19237)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:671:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:302:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:899:17)
+    at async invokeRender (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:237:21)
+    at async handleRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:428:24)
+    at async requestHandlerImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:452:13)
+[2025-07-01T10:58:14.161Z] error: undefined
+[2025-07-01T10:58:14.163Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at u (/app/.next/server/pages/api/services/proxy.js:45:12681)
+    at async X (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:18441)
+    at async z.render (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:19237)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:671:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:302:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:899:17)
+    at async invokeRender (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:237:21)
+    at async handleRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:428:24)
+    at async requestHandlerImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:452:13)
+[2025-07-01T10:58:47.319Z] error: undefined
+[2025-07-01T10:58:47.324Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at u (/app/.next/server/pages/api/services/proxy.js:45:12681)
+    at async X (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:18441)
+    at async z.render (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:19237)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:671:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:302:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:899:17)
+    at async invokeRender (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:237:21)
+    at async handleRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:428:24)
+    at async requestHandlerImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:452:13)
+[2025-07-01T10:58:47.633Z] error: undefined
+[2025-07-01T10:58:47.634Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at u (/app/.next/server/pages/api/services/proxy.js:45:12681)
+    at async X (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:18441)
+    at async z.render (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:19237)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:671:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:302:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:899:17)
+    at async invokeRender (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:237:21)
+    at async handleRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:428:24)
+    at async requestHandlerImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:452:13)
+[2025-07-01T10:58:50.257Z] error: undefined
+[2025-07-01T10:58:50.258Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at u (/app/.next/server/pages/api/services/proxy.js:45:12681)
+    at async X (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:18441)
+    at async z.render (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:19237)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:671:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:302:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:899:17)
+    at async invokeRender (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:237:21)
+    at async handleRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:428:24)
+    at async requestHandlerImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:452:13)
+[2025-07-01T10:58:50.422Z] error: <httpProxy> Error calling http://192.168.0.115:8760/api/server-info/version...
+[2025-07-01T10:58:50.423Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.0.115:8760
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.0.115:8760) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.0.115',
+    port: 8760
+  }
+]
+[2025-07-01T10:58:50.423Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://192.168.0.115:8760/api/server-info/version
+[2025-07-01T10:58:50.424Z] error: <httpProxy> Error calling http://192.168.0.115:8760/api/server-info/stats...
+[2025-07-01T10:58:50.424Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.0.115:8760
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.0.115:8760) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.0.115',
+    port: 8760
+  }
+]
+[2025-07-01T10:58:50.424Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://192.168.0.115:8760/api/server-info/stats
+[2025-07-01T10:58:50.425Z] error: <httpProxy> Error calling http://192.168.0.115:8760/api/server-info/stats...
+[2025-07-01T10:58:50.426Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.0.115:8760
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.0.115:8760) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.0.115',
+    port: 8760
+  }
+]
+[2025-07-01T10:58:50.426Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://192.168.0.115:8760/api/server-info/stats
+[2025-07-01T10:58:50.426Z] error: <httpProxy> Error calling http://192.168.0.115:8760/api/server-info/version...
+[2025-07-01T10:58:50.426Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.0.115:8760
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.0.115:8760) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.0.115',
+    port: 8760
+  }
+]
+[2025-07-01T10:58:50.427Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://192.168.0.115:8760/api/server-info/version
+[2025-07-01T10:58:50.427Z] error: <httpProxy> Error calling http://192.168.0.115:8760/api/server-info/version...
+[2025-07-01T10:58:50.428Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.0.115:8760
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.0.115:8760) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.0.115',
+    port: 8760
+  }
+]
+[2025-07-01T10:58:50.428Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://192.168.0.115:8760/api/server-info/version
+[2025-07-01T10:58:50.428Z] error: <httpProxy> Error calling http://192.168.0.115:8760/api/server-info/stats...
+[2025-07-01T10:58:50.428Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.0.115:8760
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.0.115:8760) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.0.115',
+    port: 8760
+  }
+]
+[2025-07-01T10:58:50.428Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://192.168.0.115:8760/api/server-info/stats
+[2025-07-01T10:59:00.267Z] error: undefined
+[2025-07-01T10:59:00.268Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at u (/app/.next/server/pages/api/services/proxy.js:45:12681)
+    at async X (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:18441)
+    at async z.render (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:19237)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:671:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:302:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:899:17)
+    at async invokeRender (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:237:21)
+    at async handleRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:428:24)
+    at async requestHandlerImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:452:13)
+[2025-07-01T10:59:15.275Z] error: undefined
+[2025-07-01T10:59:15.278Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at u (/app/.next/server/pages/api/services/proxy.js:45:12681)
+    at async X (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:18441)
+    at async z.render (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:19237)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:671:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:302:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:899:17)
+    at async invokeRender (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:237:21)
+    at async handleRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:428:24)
+    at async requestHandlerImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:452:13)
+[2025-07-01T10:59:28.309Z] error: undefined
+[2025-07-01T10:59:28.310Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at u (/app/.next/server/pages/api/services/proxy.js:45:12681)
+    at async X (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:18441)
+    at async z.render (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:19237)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:671:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:302:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:899:17)
+    at async invokeRender (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:237:21)
+    at async handleRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:428:24)
+    at async requestHandlerImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:452:13)
+[2025-07-01T10:59:28.471Z] error: undefined
+[2025-07-01T10:59:28.472Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at u (/app/.next/server/pages/api/services/proxy.js:45:12681)
+    at async X (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:18441)
+    at async z.render (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:19237)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:671:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:302:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:899:17)
+    at async invokeRender (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:237:21)
+    at async handleRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:428:24)
+    at async requestHandlerImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:452:13)
+[2025-07-01T10:59:31.380Z] error: <httpProxy> Error calling http://192.168.0.115:8760/api/server-info/version...
+[2025-07-01T10:59:31.380Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.0.115:8760
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.0.115:8760) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.0.115',
+    port: 8760
+  }
+]
+[2025-07-01T10:59:31.381Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://192.168.0.115:8760/api/server-info/version
+[2025-07-01T10:59:31.381Z] error: <httpProxy> Error calling http://192.168.0.115:8760/api/server-info/stats...
+[2025-07-01T10:59:31.381Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.0.115:8760
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.0.115:8760) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.0.115',
+    port: 8760
+  }
+]
+[2025-07-01T10:59:31.381Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://192.168.0.115:8760/api/server-info/stats
+[2025-07-01T10:59:31.382Z] error: <httpProxy> Error calling http://192.168.0.115:8760/api/server-info/stats...
+[2025-07-01T10:59:31.382Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.0.115:8760
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.0.115:8760) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.0.115',
+    port: 8760
+  }
+]
+[2025-07-01T10:59:31.382Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://192.168.0.115:8760/api/server-info/stats
+[2025-07-01T10:59:31.383Z] error: <httpProxy> Error calling http://192.168.0.115:8760/api/server-info/version...
+[2025-07-01T10:59:31.383Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.0.115:8760
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.0.115:8760) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.0.115',
+    port: 8760
+  }
+]
+[2025-07-01T10:59:31.383Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://192.168.0.115:8760/api/server-info/version
+[2025-07-01T10:59:47.810Z] error: undefined
+[2025-07-01T10:59:47.815Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at u (/app/.next/server/pages/api/services/proxy.js:45:12681)
+    at async X (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:18441)
+    at async z.render (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:19237)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:671:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:302:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:899:17)
+    at async invokeRender (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:237:21)
+    at async handleRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:428:24)
+    at async requestHandlerImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:452:13)
+[2025-07-01T10:59:48.100Z] error: undefined
+[2025-07-01T10:59:48.101Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at u (/app/.next/server/pages/api/services/proxy.js:45:12681)
+    at async X (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:18441)
+    at async z.render (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:19237)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:671:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:302:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:899:17)
+    at async invokeRender (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:237:21)
+    at async handleRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:428:24)
+    at async requestHandlerImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:452:13)
+[2025-07-01T10:59:50.901Z] error: <httpProxy> Error calling http://192.168.0.115:8760/api/server-info/version...
+[2025-07-01T10:59:50.902Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.0.115:8760
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.0.115:8760) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.0.115',
+    port: 8760
+  }
+]
+[2025-07-01T10:59:50.902Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://192.168.0.115:8760/api/server-info/version
+[2025-07-01T10:59:50.902Z] error: <httpProxy> Error calling http://192.168.0.115:8760/api/server-info/stats...
+[2025-07-01T10:59:50.903Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.0.115:8760
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.0.115:8760) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.0.115',
+    port: 8760
+  }
+]
+[2025-07-01T10:59:50.903Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://192.168.0.115:8760/api/server-info/stats
+[2025-07-01T10:59:50.903Z] error: <httpProxy> Error calling http://192.168.0.115:8760/api/server-info/version...
+[2025-07-01T10:59:50.904Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.0.115:8760
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.0.115:8760) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.0.115',
+    port: 8760
+  }
+]
+[2025-07-01T10:59:50.904Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://192.168.0.115:8760/api/server-info/version
+[2025-07-01T10:59:50.905Z] error: <httpProxy> Error calling http://192.168.0.115:8760/api/server-info/stats...
+[2025-07-01T10:59:50.906Z] error: <httpProxy> [
+  500,
+  Error: connect EHOSTUNREACH 192.168.0.115:8760
+      at <unknown> (Error: connect EHOSTUNREACH 192.168.0.115:8760) {
+    errno: -113,
+    code: 'EHOSTUNREACH',
+    syscall: 'connect',
+    address: '192.168.0.115',
+    port: 8760
+  }
+]
+[2025-07-01T10:59:50.906Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://192.168.0.115:8760/api/server-info/stats
+[2025-07-01T10:59:53.110Z] error: undefined
+[2025-07-01T10:59:53.111Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at u (/app/.next/server/pages/api/services/proxy.js:45:12681)
+    at async X (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:18441)
+    at async z.render (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:19237)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:671:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:302:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:899:17)
+    at async invokeRender (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:237:21)
+    at async handleRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:428:24)
+    at async requestHandlerImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:452:13)
+[2025-07-01T11:00:08.119Z] error: undefined
+[2025-07-01T11:00:08.121Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at u (/app/.next/server/pages/api/services/proxy.js:45:12681)
+    at async X (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:18441)
+    at async z.render (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:19237)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:671:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:302:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:899:17)
+    at async invokeRender (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:237:21)
+    at async handleRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:428:24)
+    at async requestHandlerImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:452:13)
+[2025-07-01T11:02:33.131Z] error: undefined
+[2025-07-01T11:02:33.136Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at u (/app/.next/server/pages/api/services/proxy.js:45:12681)
+    at async X (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:18441)
+    at async z.render (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages-api.runtime.prod.js:20:19237)
+    at async NextNodeServer.runApi (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:671:9)
+    at async NextNodeServer.handleCatchallRenderRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/next-server.js:302:37)
+    at async NextNodeServer.handleRequestImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/base-server.js:899:17)
+    at async invokeRender (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:237:21)
+    at async handleRequest (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:428:24)
+    at async requestHandlerImpl (/app/node_modules/.pnpm/next@15.3.1_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/router-server.js:452:13)
+[2025-07-01T11:03:19.989Z] error: <httpProxy> Error calling http://10.43.80.45:3001/api/status-page/heartbeat/home...
+[2025-07-01T11:03:19.990Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 10.43.80.45:3001
+      at <unknown> (Error: connect ETIMEDOUT 10.43.80.45:3001) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '10.43.80.45',
+    port: 3001
+  }
+]
+[2025-07-01T11:03:19.991Z] error: <httpProxy> Error calling http://10.43.1.73/api/speedtest/latest...
+[2025-07-01T11:03:19.991Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 10.43.1.73:80
+      at <unknown> (Error: connect ETIMEDOUT 10.43.1.73:80) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '10.43.1.73',
+    port: 80
+  }
+]
+[2025-07-01T11:03:19.992Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://10.43.1.73/api/speedtest/latest
+[2025-07-01T11:03:28.180Z] error: <httpProxy> Error calling http://10.43.80.45:3001/api/status-page/home...
+[2025-07-01T11:03:28.181Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 10.43.80.45:3001
+      at <unknown> (Error: connect ETIMEDOUT 10.43.80.45:3001) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '10.43.80.45',
+    port: 3001
+  }
+]

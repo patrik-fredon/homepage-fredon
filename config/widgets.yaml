@@ -1,71 +1,67 @@
 - logo:
-    icon: /icons/favicon-large.png
+    icon: /icons/fredon.png
+    text_size: 4xl
 
 - greeting:
     text_size: 4xl
-    text: example.com
+    text: fredonbytes.cloud
+    href: https://fredonbytes.cloud
 
 - resources:
     expanded: false
-    cpu: true 
+    cpu: true
     cputemp: true
-    memory: true  
+    memory: true
     refresh: 1000
 
 - greeting:
     text_size: 4xl
     text: —
 
-- resources: 
+- resources:
     label: ARRAY
-    expanded: true 
+    expanded: true
     disk:
-     - /array
+      - /array
 
-- resources: 
-    label: CACHE
-    expanded: true 
+- resources:
+    label: MAIN DISK
+    expanded: true
     disk:
-     - /cache
+      - /
 
-- resources: 
-    label: DEPOT
-    expanded: true 
+- resources:
+    label: BACKUP disk
+    expanded: true
     disk:
-     - /depot
+      - /mnt/backup
 
 - greeting:
     text_size: 4xl
     text: —
 
-- resources: 
-    expanded: false
-    uptime: true 
+- resources:
+    expanded: true
+    uptime: true
     refresh: 1000
 
 - datetime:
     text_size: 4xl
     format:
-        timeStyle: short
-        hour12: false
+      timeStyle: short
+      hour12: false
 
 - datetime:
     text_size: md
     format:
-        dateStyle: long
-        hour12: false
-
-- search:
-    provider: google 
-    focus: true
-    showSearchSuggestions: true
-    target: _parent
+      dateStyle: long
+      hour12: false
 
 - openmeteo:
-    label: Location
+    label: Brno
     latitude: 0.00
     longitude: 0.00
-    timezone: UTC/Etc
+    timezone: Europe/Prague
     units: metric
     cache: 5
     format:
