@@ -1,50 +1,57 @@
 ---
 # For configuration options and examples, please see:
 # https://gethomepage.dev/configs/bookmarks/
-
-- Bookmarks:
-    - Homelab:
-        - href: https://homelab-fredon.space/ # Either 2 and 4 tab spacing work
-          abbr: HO
-
-    - Cloudflare:
-        - href: https://cloudflare
-          abbr: CD
-
+- Personal:
     - Github:
         - href: https://github.com/patrik-fredon
-          abbr: GH
-
+          icon: github.png
     - YouTube:
         - href: https://youtube.com/
-          abbr: YT
+          icon: youtube.png
     - Reddit:
         - href: https://reddit.com/
-          abbr: RD
+          icon: reddit.png
     - Twitter:
         - href: https://twitter.com/
-          abbr: TW
-    - Immich:
-        - href: https://immich.homelab-fredon.space/
-          abbr: IM
+          icon: twitter.png
     - Proton:
         - href: https://proton.me/
-          abbr: PR
+          icon: proton-mail.png
+
+- Hosting:
+    - Wiki:
+        - href: https://wiki.homelab-fredon.space/
+          icon: wikijs.png
+    - Immich:
+        - href: https://immich.homelab-fredon.space/
+          icon: immich.png
+    - Homelab:
+        - href: https://homelab-fredon.space/ # Either 2 and 4 tab spacing work
+          icon: fredon.png
+- AI:
     - Perplexity:
         - href: https://perplexity.ai/
-          abbr: PX
+          icon: perplexity.png
     - Grok:
         - href: https://grok.com/
-          abbr: GR
+          icon: grok.png
     - DeepSeek:
         - href: https://deepseek.com/
-          abbr: DS
-    - Wiki:
-        - href: https:/wiki.homelab-fredon.space/
-          abbr: WK
+          icon: deepseek.png
+
+- Tools:
+    - YAMLValidator:
+        - href: https://codebeautify.org/yaml-validator/
+          abbr: YM
+    - JSONFormatter:
+        - href: https://jsonformatter.org/
+          abbr: JF
     - ITtools:
         - href: https://ittools.tech/
           abbr: IT
     - Beszel:
         - href: https://monbes.homelab-fredon.space/
           abbr: BZ
+    - Cloudflare:
+        - href: https://cloudflare.com/
+          abbr: CD

@@ -1,12 +1,23 @@
 ---
 # For configuration options and examples, please see:
 # https://gethomepage.dev/widgets/
+- logo:
+    icon: /images/web-app-manifest-512x512.png
 
 - resources:
     cpu: true
     memory: true
+    disk:
+      - /
+      - /mnt/backup
     expanded: true
-    refresh: 5000
+    cputemp: true
+    tempmin: 0
+    tempmax: 80
+    uptime: true
+    network: true
+    diskUnits: bytes
+    refresh: 3000
     label: System
 
 - openweathermap:
@@ -22,8 +33,6 @@
       timeStyle: short
       hour12: true
       timeZone: "Europe/Prague"
-- logo:
-    icon: /home/fredon/github/homepage/images/web-app-manifest-512x512.png
 
 # - glances:
 # url: http://{{HOMEPAGE_VAR_SERVER_IP}}:61208
@@ -41,6 +50,8 @@
       - MSFT
       - AAPL
       - BRK.A
-
-- search:
-    provider: google
+#- search:
+#   provider: google
+#  focus: false # Auto-focus při načtení
+#target: _blank
+# showSearchSuggestions: true

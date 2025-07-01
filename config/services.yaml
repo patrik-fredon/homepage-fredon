@@ -7,7 +7,7 @@
         name: Calendar
         widget:
           type: calendar
-          view: agenda
+          view: monthly
           maxEvents: 6 # Limit shown events to a maximum of 6
           firstDayInWeek: Monday
 
