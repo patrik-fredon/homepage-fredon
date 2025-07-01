@@ -7,8 +7,8 @@
         - href: https://homelab-fredon.space/ # Either 2 and 4 tab spacing work
           abbr: HO
 
-    - Code-server:
-        - href: https://code-server.{{HOMEPAGE_VAR_DOMAIN_NAME}}/
+    - Cloudflare:
+        - href: https://cloudflare
           abbr: CD
 
     - Github:
@@ -42,3 +42,9 @@
     - Wiki:
         - href: https:/wiki.homelab-fredon.space/
           abbr: WK
+    - ITtools:
+        - href: https://ittools.tech/
+          abbr: IT
+    - Beszel:
+        - href: https://monbes.homelab-fredon.space/
+          abbr: BZ
